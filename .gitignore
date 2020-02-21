@@ -359,4 +359,7 @@ Saved/
 Intermediate/
 DerivedDataCache/
 
+CUDA/Includes/
+CUDA/Libraries/
+
 *_BuiltData.uasset
