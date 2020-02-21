@@ -34,6 +34,7 @@ __global__ void SplitChannels(uint8_t* image, uint8_t* red,
 	int halo = !img;
 	int index = y * sizeX + x;
 	int i = (y - firstY)*width + x - firstX;
+	i = i * img + 0 * halo;
 	if (x < sizeX && y < sizeY)
 	{
 		blue[index] = image[i*CHANNELS + j] * img + ghost * halo;

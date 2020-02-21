@@ -351,3 +351,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+#Unreal Engine directories and files
+Binaries/
+Build/
+Saved/
+Intermediate/
+DerivedDataCache/
+
+*_BuiltData.uasset
