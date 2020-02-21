@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8F9C5886-4D2B-385F-2B4C-408DEDA4F047}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HPCImageProcessing",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
